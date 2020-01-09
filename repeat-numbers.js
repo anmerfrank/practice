@@ -21,8 +21,10 @@ let repeatNumbers = function(data) {
     resultArray.push(result);
   }
   return resultArray.join(", ");
+}
 
-};
+
+
 
 
 console.log(repeatNumbers([[1, 10]]));
